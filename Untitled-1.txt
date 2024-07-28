@@ -6,7 +6,7 @@ Skew for outstanding_debt_square is 0.31 // Kurtosis for outstanding_debt_square
 Skew for credit_utilization_ratio_log is -0.23 // Kurtosis for credit_utilization_ratio_log is -0.90 ---- No outliers
 Skew for credit_history_age_boxcox is -0.17 // Kurtosis for credit_history_age_boxcox is -0.80 -- --No outliers
 Skew for changed_credit_limit_cube is 0.10 // Kurtosis for changed_credit_limit_cube is -0.52 -- --No outliers
---total_emi_per_month
+Skew for total_emi_per_month_square is 0.77 // Kurtosis for total_emi_per_month_square is 1.95 --outliers
 Skew for amount_invested_monthly_boxcox is -0.69 // Kurtosis for Kurtosis for amount_invested_monthly_boxcox is 3.20     -- outliers
 Skew for monthly_balance_boxcox is 0.13 // Kurtosis for monthly_balance_boxcox is 1.45  -- outliers
 Skew for credit_limit_change_rate_exp is 0.01 // Kurtosis for credit_limit_change_rate_exp is 3.75 -- outliers
@@ -22,7 +22,4 @@ Skew for credit_utilization_to_income_ratio_boxcox is 0.02 // Kurtosis for credi
 Skew for savings_rate_rec is 0.28 // Kurtosis for savings_rate_rec is -0.47 -- -- No outliers
 Skew for income_stability_boxcox is 0.11 // Kurtosis for income_stability_boxcox is 3.28 -- outliers   
 Skew for total_liability_boxcox is -0.03 // Kurtosis for total_liability_boxcox is -0.29 --outliers
-Skew for debt_paytime_log is 0.18 // Ku rtosis for debt_paytime_log is 0.84 -- -- check -- box-cox
-
-
-
+Skew for debt_paytime_log is 0.18 // Ku rtosis for debt_paytime_log is 0.84 --outliers
