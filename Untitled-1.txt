@@ -23,3 +23,11 @@ Skew for savings_rate_rec is 0.28 // Kurtosis for savings_rate_rec is -0.47 -- -
 Skew for income_stability_boxcox is 0.11 // Kurtosis for income_stability_boxcox is 3.28 -- outliers   
 Skew for total_liability_boxcox is -0.03 // Kurtosis for total_liability_boxcox is -0.29 --outliers
 Skew for debt_paytime_log is 0.18 // Ku rtosis for debt_paytime_log is 0.84 --outliers
+
+
+outliers = {'upper':['total_emi_per_month_square',],
+            'lower':}
+
+outliers = ['total_emi_per_month_square','amount_invested_monthly_boxcox','monthly_balance_boxcox','credit_limit_change_rate_exp','debt_income_ratio_log',
+            'loan_income_ratio_month_boxcox','credit_utilization_per_account_boxcox','reliable_payment_boxcox','delayed_payment_ratio_boxcox','investment_to_income_ratio_square'
+            ,'credit_limit_change_rate_boxcox','income_stability_boxcox','total_liability_boxcox','debt_paytime_log']
