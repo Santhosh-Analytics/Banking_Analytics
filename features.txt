@@ -1,0 +1,52 @@
+income_stability_boxcox		num_credit_card		age_group	interest_rate_boxcox	age_boxcox	changed_credit_limit_cube	num_credit_inquiries	delay_from_due_date	credit_history_age_boxcox
+
+num_bank_accounts	savings_rate_rec	investment_to_income_ratio_square	delayed_payment_ratio_boxcox	credit_limit_change_rate_exp	credit_utilization_per_account_boxcox	payment_of_min_amount	num_of_delayed_payment
+num_of_loan	credit_mix	Cluster	outstanding_debt_square		total_liability_boxcox		total_credit_exposure_boxcox
+
+extra tree forest                            		XGB 					Random Forest					DT
+
+credit_mix					credit_mix					credit_mix					credit_mix
+
+payment_of_min_amount				outstanding debt sq				total_credit_exposure_boxcox			outstanding debt sq	
+
+interest rate box				Credit untili ratio				interest ra					interest rate
+
+total credit exposure				interest ra					outstanding debt sq				credit history age
+
+outstanding debt sq				payment of min am				total liability 				delay from due date
+
+delay_from_due_date				credit limit change rate			pay min amt					credit limi change rate ex
+
+num_credit_inquiries				total liability					delay from due date				loan to income month
+
+num_credit_card					num_credit_card					num of credit inqui				num of credit inqui
+
+credit_history_age_boxcox			total_credit_exposure_boxcox			credit history age 				age
+
+reliable payment				num_bank_accounts				reliable pa					reliable 
+
+total liability'				cluster						credit limit change ra				num of credit 
+
+credit limit change rate			num_credit_inquiries				credit utilization per account			monthly balance
+
+num_bank_accounts				delay_from_due_date				num_credit_card					total credit exposure
+
+num_of_loan					payment beh					loan income ratio month				income stability
+
+num_of_delayed_payment				loan income ratio month 			num_of_delayed_payment				credit utili per acc
+
+credit_utilization_per_account_boxcox		num_of_delayed_payment				num_bank_accounts				debt income ration
+
+cluster						age group 					age						amount invest monthly
+
+loan income ration month			age						debt income ratio				num_of_delayed_payment
+
+age						monthly in hand salary				monthly balance					num of bank account
+
+delayed payment ration				num of loan					income stability				savings rate
+
+debt income ration				disposable income				annual income					total liabi
+
+payment beha					annual income					amount invested monthly				debt pay 
+
+debt paytime					total emi per month				monthly in hand salary				changed
